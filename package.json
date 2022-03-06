@@ -1,0 +1,33 @@
+{
+  "name": "airbank-front",
+  "private": true,
+  "version": "0.0.2",
+  "main": "dist/server.js",
+  "description": "Test front for airbank vacancy.",
+  "author": "alvaropfn",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "@apollo/client": "^3.5.10",
+    "@vue/apollo-composable": "^4.0.0-alpha.16",
+    "ant-design-vue": "^2.2.8",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "moment": "^2.29.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
